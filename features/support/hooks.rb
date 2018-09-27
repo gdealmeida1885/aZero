@@ -1,4 +1,5 @@
 After('@logout') do
+  @nav = Nav.new
   @nav.sair
   wait_until_css('.swal2-modal')
 end

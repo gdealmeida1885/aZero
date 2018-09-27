@@ -6,6 +6,7 @@ Dado('que eu acessei a página de login') do
   # cenario
   @home.acessar
   @nav.vai_para_login
+  @nav.vai_para_login
 end
 
 Quando('faço login com:') do |table|
